@@ -5,12 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Estilos CSS -->
+    <style>
+        /* Estilo del contenedor del mapa */
+        #map {
+            text-align: center;
+            width: 70%; 
+            height: 70%;
+            border: 2px solid black;
+            margin: 20px auto;
+        }       
+    </style>
 </head>
 <body>
     <h1>Mapa de Cochabamba</h1>
-    <div id="map" style="width: 99%; height: 640px;">
+
+    <!-- Contenedor del mapa -->
+    <div id="map">
         {{ mapa|safe }}
     </div>
+
+    <!-- Enlace de descarga -->
     <a href="/download">Descargar Mapa</a>
 </body>
 </html>
