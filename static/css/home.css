@@ -1,0 +1,12 @@
+.logoVenado{
+    width: 60px;
+}
+
+.imagenfondo{
+    width: 100%;
+    position: relative;
+}
+
+.textPrincipal{
+    position: absolute;
+}
